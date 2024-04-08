@@ -8,42 +8,24 @@ using namespace std;
 #include <map>
 #include <queue>
 
-mutex m;
-queue<int> q;
-HANDLE hEvent;
-condition_variable cv;
-void Producer()
+class Knight : public enable_shared_from_this<Knight>
 {
-	while (true)
+public:
+	void Test()
 	{
-		unique_lock<mutex> lock(m);
-		q.push(100);
-
-		cv.notify_one();
+		move(shared_from_this());
 	}
-}
 
-void Consumer()
-{
-	while (true)
+	void Move(shared_ptr<Knight> k)
 	{
-		unique_lock<mutex> lock(m);
-		cv.wait(lock, []() { return q.empty() == false; });
 
-		int data = q.front();
-		q.pop();
-		cout << data << endl;
 	}
-}
+};
+
+using KnightRef = shared_ptr<Knight>;
 
 int main()
 {
-	hEvent = ::CreateEvent(NULL/*보안 속성*/, FALSE/*수동 리셋*/, FALSE/*초기 상태*/, NULL/*이름*/);
-
-	thread t1(Producer);
-	thread t2(Consumer);
-	t1.join();
-	t2.join();
-
-	::CloseHandle(hEvent);
+	KnightRef knight(new Knight());
+	knight->Test();
 }
