@@ -6,59 +6,44 @@ using namespace std;
 #include <atomic>
 #include <mutex>
 #include <map>
+#include <queue>
 
-class User
+mutex m;
+queue<int> q;
+HANDLE hEvent;
+condition_variable cv;
+void Producer()
 {
-
-};
-
-class UserManager
-{
-public:
-	User* GetUser(int id)
+	while (true)
 	{
-		unique_lock<mutex> guard(_lock);
+		unique_lock<mutex> lock(m);
+		q.push(100);
 
-		auto findIt = _users.find(id);
-		if (findIt == _users.end())
-			return nullptr;
-
-		return findIt->second;
-	}
-
-private:
-	map<int, User*> _users;
-	mutex _lock;
-};
-
-mutex m1;
-mutex m2;
-
-void Thread_1()
-{
-	for (int i = 0; i < 10'000; i++)
-	{
-		lock_guard<mutex> lockGuard1(m1);
-		lock_guard<mutex> lockGuard2(m2);
+		cv.notify_one();
 	}
 }
 
-void Thread_2()
+void Consumer()
 {
-	for (int i = 0; i < 10'000; i++)
+	while (true)
 	{
-		lock_guard<mutex> lockGuard2(m2); 
-		lock_guard<mutex> lockGuard1(m1);
+		unique_lock<mutex> lock(m);
+		cv.wait(lock, []() { return q.empty() == false; });
+
+		int data = q.front();
+		q.pop();
+		cout << data << endl;
 	}
 }
 
 int main()
 {
-	thread t1(Thread_1);
-	thread t2(Thread_2);
+	hEvent = ::CreateEvent(NULL/*보안 속성*/, FALSE/*수동 리셋*/, FALSE/*초기 상태*/, NULL/*이름*/);
 
+	thread t1(Producer);
+	thread t2(Consumer);
 	t1.join();
 	t2.join();
 
-	cout << "Jobs Done" << endl;
+	::CloseHandle(hEvent);
 }
