@@ -1,0 +1,6 @@
+C:\CppProjects\Server\ServerCore\CoreGlobal.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\CoreGlobal.obj
+C:\CppProjects\Server\ServerCore\CoreMacro.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\CoreMacro.obj
+C:\CppProjects\Server\ServerCore\CorePch.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\CorePch.obj
+C:\CppProjects\Server\ServerCore\CoreTLS.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\CoreTLS.obj
+C:\CppProjects\Server\ServerCore\pch.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\pch.obj
+C:\CppProjects\Server\ServerCore\ThreadManager.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\ThreadManager.obj

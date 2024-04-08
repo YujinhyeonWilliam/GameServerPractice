@@ -1,5 +1,5 @@
-﻿#include <iostream>
-using namespace std;
+﻿#include "pch.h"
+#include <iostream>
 #include <thread>
 #include <vector>
 #include <windows.h>
@@ -7,25 +7,23 @@ using namespace std;
 #include <mutex>
 #include <map>
 #include <queue>
+using namespace std;
+#include "ThreadManager.h"
 
-class Knight : public enable_shared_from_this<Knight>
+void TestThread()
 {
-public:
-	void Test()
-	{
-		move(shared_from_this());
-	}
+	cout << "Hi! i am Thread : " << LThreadId << endl;
 
-	void Move(shared_ptr<Knight> k)
+	while (true)
 	{
 
 	}
-};
-
-using KnightRef = shared_ptr<Knight>;
+}
 
 int main()
 {
-	KnightRef knight(new Knight());
-	knight->Test();
+	for (int i = 0; i < 10; i++)
+		GThreadManager->Launch(TestThread);
+
+	GThreadManager->Join();
 }
