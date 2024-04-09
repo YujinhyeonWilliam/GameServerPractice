@@ -11,13 +11,26 @@ using namespace std;
 #include "ThreadManager.h"
 
 
+// Overlapped IO (비동기 + 논블로킹)
+
 const int32 BUF_SIZE = 1000;
 struct Session
 {
+	WSAOVERLAPPED overlapped = {};
+	//... Overlapped IO 에선 overlapped 변수가 맨 위이어야 함 
 	SOCKET socket = INVALID_SOCKET;
 	char recvBuffer[BUF_SIZE] = {};
 	int32 recvBytes = 0;
 };
+
+void CALLBACK RecvCallback(DWORD error, DWORD recvLen, LPWSAOVERLAPPED overlapped, DWORD flags)
+{
+	cout << "Data Recv Len Callback = " << recvLen << endl;
+
+	// TODO 
+	Session* session = (Session*)(overlapped);
+	cout << session->recvBuffer << endl;
+}
 
 int main()
 {
@@ -40,68 +53,56 @@ int main()
 	if (SocketUtils::Listen(listenSocket) == false)
 		return 0;
 
-	vector<WSAEVENT> wsaEvents;
-	vector<Session> sessions;
-	sessions.reserve(100);
-	
-	WSAEVENT listenEvent = ::WSACreateEvent();
-	wsaEvents.push_back(listenEvent);
-	sessions.push_back(Session{ listenSocket });
-
-	if (::WSAEventSelect(listenSocket, listenEvent, FD_ACCEPT | FD_CLOSE) == SOCKET_ERROR)
-		return 0;
+	// overlapped 함수를 건다 (WSARecv, WSASend)
+	// - overlapped 함수 성공했는가?
+	// -> 성공 했으면 결과 얻어서 처리
+	// -> 실패했으면 사유 확인
 
 	while (true)
 	{
-		int32 index = ::WSAWaitForMultipleEvents(wsaEvents.size(), &wsaEvents[0], FALSE, WSA_INFINITE, FALSE);
-		if (index == WSA_WAIT_FAILED)
-			continue;
+		SOCKADDR_IN clientAddr;
+		int32 addrLen = sizeof(clientAddr);
+		SOCKET clientSocket;
 
-		index -= WSA_WAIT_EVENT_0; 
-
-		WSANETWORKEVENTS networkEvents;
-		if (::WSAEnumNetworkEvents(sessions[index].socket, wsaEvents[index], &networkEvents) == SOCKET_ERROR)
-			continue;
-
-		if (networkEvents.lNetworkEvents & FD_ACCEPT)
+		while(true)
 		{
-			if (networkEvents.iErrorCode[FD_ACCEPT_BIT] != 0)
-				continue;
-
-			SOCKADDR_IN clientAddr; 
-			int32 addrLen = sizeof(clientAddr); 
-			SOCKET clientSocket = ::accept(listenSocket, (SOCKADDR*)&clientAddr, &addrLen);
-
+			clientSocket = ::accept(listenSocket, (SOCKADDR*)&clientAddr, &addrLen);
 			if (clientSocket != INVALID_SOCKET)
-			{
-				cout << "Client Connected" << endl;
-				WSAEVENT clientEvent = ::WSACreateEvent();
-				wsaEvents.push_back(clientEvent);
-				sessions.push_back(Session{ clientSocket });
+				break;
 
-				if (::WSAEventSelect(clientSocket, clientEvent, FD_READ | FD_WRITE | FD_CLOSE) == SOCKET_ERROR)
-					return 0;
-			}
+			if (::WSAGetLastError() == WSAEWOULDBLOCK)
+				continue;
+			
+			// 문제
+			return 0;
 		}
 
-		// Client Session 소켓 체크
-		if (networkEvents.lNetworkEvents & FD_READ)
+		Session session = Session{ clientSocket };
+
+		cout << "Client Connected" << endl;
+		while (true)
 		{
-			if (networkEvents.iErrorCode[FD_READ_BIT] != 0)
-				continue;
+			WSABUF wsaBuf;
+			wsaBuf.buf = session.recvBuffer;
+			wsaBuf.len = BUF_SIZE;
 
-			Session& s = sessions[index];
-
-			//READ
-			int32 recvLen = ::recv(s.socket, s.recvBuffer, BUF_SIZE, 0);
-			if (recvLen == SOCKET_ERROR && ::WSAGetLastError() != WSAEWOULDBLOCK)
+			DWORD recvLen = 0;
+			DWORD flags = 0;
+			if (::WSARecv(clientSocket, &wsaBuf, 1, &recvLen, &flags, &session.overlapped, RecvCallback) == SOCKET_ERROR)
 			{
-				if (recvLen <= 0)
-					continue;
+				if (::WSAGetLastError() == WSA_IO_PENDING)
+				{
+					// Alertable Wait
+					::SleepEx(INFINITE, TRUE);
+				}
+				else
+				{
+					// TODO
+					break;
+				}
 			}
 
-			cout << "Recv Data = " << s.recvBuffer << endl;
-			cout << "Recv Len = " << recvLen << endl;
+			//cout << "Data Received = " << session.recvBuffer << endl;
 		}
 	}
 
