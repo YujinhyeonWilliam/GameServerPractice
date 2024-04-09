@@ -40,59 +40,68 @@ int main()
 	if (SocketUtils::Listen(listenSocket) == false)
 		return 0;
 
+	vector<WSAEVENT> wsaEvents;
 	vector<Session> sessions;
 	sessions.reserve(100);
+	
+	WSAEVENT listenEvent = ::WSACreateEvent();
+	wsaEvents.push_back(listenEvent);
+	sessions.push_back(Session{ listenSocket });
 
-	fd_set reads;
-	fd_set writes;
+	if (::WSAEventSelect(listenSocket, listenEvent, FD_ACCEPT | FD_CLOSE) == SOCKET_ERROR)
+		return 0;
 
 	while (true)
 	{
-		// 소켓 셋 초기화
-		FD_ZERO(&reads);
+		int32 index = ::WSAWaitForMultipleEvents(wsaEvents.size(), &wsaEvents[0], FALSE, WSA_INFINITE, FALSE);
+		if (index == WSA_WAIT_FAILED)
+			continue;
 
-		// ListenSocket을 관찰대상으로 Read에 등록
-		FD_SET(listenSocket, &reads);
+		index -= WSA_WAIT_EVENT_0; 
 
-		// 나머지 소켓을 read에 등록
-		for (Session& s : sessions)
-			FD_SET(s.socket, &reads);
+		WSANETWORKEVENTS networkEvents;
+		if (::WSAEnumNetworkEvents(sessions[index].socket, wsaEvents[index], &networkEvents) == SOCKET_ERROR)
+			continue;
 
-		// [옵션] 마지막 timeout 인자 설정 가능
-		int32 retValue = ::select(0, &reads, nullptr, nullptr, nullptr);
-		if (retValue == SOCKET_ERROR)
-			break;
-
-		if (FD_ISSET(listenSocket, &reads))
+		if (networkEvents.lNetworkEvents & FD_ACCEPT)
 		{
-			SOCKADDR_IN clientAddr;
-			int32 addrLen = sizeof(clientAddr);
+			if (networkEvents.iErrorCode[FD_ACCEPT_BIT] != 0)
+				continue;
+
+			SOCKADDR_IN clientAddr; 
+			int32 addrLen = sizeof(clientAddr); 
 			SOCKET clientSocket = ::accept(listenSocket, (SOCKADDR*)&clientAddr, &addrLen);
 
 			if (clientSocket != INVALID_SOCKET)
 			{
-				if (::WSAGetLastError() == WSAEWOULDBLOCK)
-					continue;
-
 				cout << "Client Connected" << endl;
+				WSAEVENT clientEvent = ::WSACreateEvent();
+				wsaEvents.push_back(clientEvent);
 				sessions.push_back(Session{ clientSocket });
+
+				if (::WSAEventSelect(clientSocket, clientEvent, FD_READ | FD_WRITE | FD_CLOSE) == SOCKET_ERROR)
+					return 0;
 			}
 		}
 
-		// 나머지 소켓 체크
-		for (Session& s : sessions)
+		// Client Session 소켓 체크
+		if (networkEvents.lNetworkEvents & FD_READ)
 		{
-			if (FD_ISSET(s.socket, &reads))
-			{
-				int32 recvLen = ::recv(s.socket, s.recvBuffer, BUF_SIZE, 0);
-				if (recvLen <= 0)
-				{
-					continue;
-				}
+			if (networkEvents.iErrorCode[FD_READ_BIT] != 0)
+				continue;
 
-				cout << "RecvData = " << s.recvBuffer << endl;
-				cout << "RecvLen = " << recvLen << endl;
+			Session& s = sessions[index];
+
+			//READ
+			int32 recvLen = ::recv(s.socket, s.recvBuffer, BUF_SIZE, 0);
+			if (recvLen == SOCKET_ERROR && ::WSAGetLastError() != WSAEWOULDBLOCK)
+			{
+				if (recvLen <= 0)
+					continue;
 			}
+
+			cout << "Recv Data = " << s.recvBuffer << endl;
+			cout << "Recv Len = " << recvLen << endl;
 		}
 	}
 
