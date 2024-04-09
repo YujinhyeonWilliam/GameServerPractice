@@ -11,6 +11,14 @@ using namespace std;
 #include "ThreadManager.h"
 
 
+const int32 BUF_SIZE = 1000;
+struct Session
+{
+	SOCKET socket = INVALID_SOCKET;
+	char recvBuffer[BUF_SIZE] = {};
+	int32 recvBytes = 0;
+};
+
 int main()
 {
 	SocketUtils::Init();
@@ -32,39 +40,59 @@ int main()
 	if (SocketUtils::Listen(listenSocket) == false)
 		return 0;
 
+	vector<Session> sessions;
+	sessions.reserve(100);
+
+	fd_set reads;
+	fd_set writes;
+
 	while (true)
 	{
-		SOCKADDR_IN clientAddr;
-		int32 addrLen = sizeof(clientAddr);
+		// 소켓 셋 초기화
+		FD_ZERO(&reads);
 
-		SOCKET clientSocket = ::accept(listenSocket, (SOCKADDR*)&clientAddr, &addrLen);
-		if (clientSocket == INVALID_SOCKET)
+		// ListenSocket을 관찰대상으로 Read에 등록
+		FD_SET(listenSocket, &reads);
+
+		// 나머지 소켓을 read에 등록
+		for (Session& s : sessions)
+			FD_SET(s.socket, &reads);
+
+		// [옵션] 마지막 timeout 인자 설정 가능
+		int32 retValue = ::select(0, &reads, nullptr, nullptr, nullptr);
+		if (retValue == SOCKET_ERROR)
+			break;
+
+		if (FD_ISSET(listenSocket, &reads))
 		{
-			// 에러보다는 아직 소켓이 도착하지 않은 경우 뱉는 메세지
-			if (::WSAGetLastError() == WSAEWOULDBLOCK)
-				continue;
+			SOCKADDR_IN clientAddr;
+			int32 addrLen = sizeof(clientAddr);
+			SOCKET clientSocket = ::accept(listenSocket, (SOCKADDR*)&clientAddr, &addrLen);
 
-		}
-		
-		cout << "Client Connected!" << endl;
-
-		// Recv
-		while (true)
-		{
-			char recvBuffer[100];
-			int32 recvLen = ::recv(clientSocket, recvBuffer, sizeof(recvBuffer), 0);
-			if (recvLen == SOCKET_ERROR)
+			if (clientSocket != INVALID_SOCKET)
 			{
-				// 아직 커널리시브버퍼에 버퍼가 도착하지 않은 상태
 				if (::WSAGetLastError() == WSAEWOULDBLOCK)
 					continue;
-				// TODO
 
-				break;
+				cout << "Client Connected" << endl;
+				sessions.push_back(Session{ clientSocket });
 			}
+		}
 
-			cout << "Recv Data = " << recvBuffer << endl;
-			cout << "Recv Data Len = " << recvLen << endl;
+		// 나머지 소켓 체크
+		for (Session& s : sessions)
+		{
+			if (FD_ISSET(s.socket, &reads))
+			{
+				int32 recvLen = ::recv(s.socket, s.recvBuffer, BUF_SIZE, 0);
+				if (recvLen <= 0)
+				{
+					continue;
+				}
+
+				cout << "RecvData = " << s.recvBuffer << endl;
+				cout << "RecvLen = " << recvLen << endl;
+			}
 		}
 	}
 

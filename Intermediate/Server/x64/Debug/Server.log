@@ -1,1 +1,5 @@
-﻿  Server.vcxproj -> C:\CppProjects\Server\Binaries\x64\Server.exe
+﻿  Server.cpp
+C:\CppProjects\Server\Server\Server.cpp(47,9): warning C4101: 'writes' :참조되지 않은 지역 변수입니다.
+  (소스 파일 '/Server.cpp'을(를) 컴파일하는 중)
+  
+  Server.vcxproj -> C:\CppProjects\Server\Binaries\x64\Server.exe
