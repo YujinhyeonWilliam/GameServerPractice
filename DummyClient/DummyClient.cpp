@@ -11,7 +11,7 @@ int main()
 		return 0;
 
 	// 1) 소켓 생성 (socket)
-	SOCKET clientSocket = ::socket(AF_INET, SOCK_STREAM, 0);
+	SOCKET clientSocket = ::socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP);
 	if (clientSocket == INVALID_SOCKET)
 		return 0;
 
@@ -22,25 +22,10 @@ int main()
 	::inet_pton(AF_INET, "127.0.0.1", &serverAddr.sin_addr);
 	serverAddr.sin_port = ::htons(7777);
 
-	// 3) 연결
-	if (::connect(clientSocket, (sockaddr*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR)
-		return 0;
-
-	cout << " Connected To Server !" << endl;
-
 	while (true)
 	{
 		char sendBuffer[100] = "Hello! I am Client!";
-		int32 resultCode = ::send(clientSocket, sendBuffer, sizeof(sendBuffer), 0); 
-		if (resultCode == SOCKET_ERROR) 
-			return 0;
-
-		char recvBuffer[100];
-		int32 recvLen = ::recv(clientSocket, recvBuffer, sizeof(recvBuffer), 0);
-		if (recvLen <= 0)
-			return 0;
-
-		cout << "Echo Data : " << recvBuffer << endl;
+		int32 resultCode = ::sendto(clientSocket, sendBuffer, sizeof(sendBuffer), 0, (SOCKADDR*)&serverAddr, sizeof(serverAddr));
 
 		// 1초에 한 번씩 송신
 		this_thread::sleep_for(1s);

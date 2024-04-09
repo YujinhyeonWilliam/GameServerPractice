@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\CppProjects\\Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CppProjects\\Server\\Server\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:Server\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|C:\\CppProjects\\Server\\DummyClient\\DummyClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|solutionrelative:DummyClient\\DummyClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|C:\\CppProjects\\Server\\DummyClient\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|solutionrelative:DummyClient\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|C:\\CppProjects\\Server\\DummyClient\\DummyClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|solutionrelative:DummyClient\\DummyClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CppProjects\\Server\\Server\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:Server\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CppProjects\\Server\\Server\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -185,17 +185,17 @@
         },
         {
           "DockedWidth": 205,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Server.cpp",
               "DocumentMoniker": "C:\\CppProjects\\Server\\Server\\Server.cpp",
               "RelativeDocumentMoniker": "Server\\Server.cpp",
               "ToolTip": "C:\\CppProjects\\Server\\Server\\Server.cpp",
               "RelativeToolTip": "Server\\Server.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAADcAAAACAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACsAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-07T09:41:00.748Z",
               "IsPinned": true,
@@ -203,13 +203,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DummyClient.cpp",
               "DocumentMoniker": "C:\\CppProjects\\Server\\DummyClient\\DummyClient.cpp",
               "RelativeDocumentMoniker": "DummyClient\\DummyClient.cpp",
               "ToolTip": "C:\\CppProjects\\Server\\DummyClient\\DummyClient.cpp",
               "RelativeToolTip": "DummyClient\\DummyClient.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-08T11:52:10.349Z",
               "EditorCaption": ""
