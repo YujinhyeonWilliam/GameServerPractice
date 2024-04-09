@@ -13,50 +13,60 @@ using namespace std;
 
 int main()
 {
-	WSADATA wsaData;
-	if (::WSAStartup(MAKEWORD(2, 2), &wsaData) != 0)
-		return 0;
+	SocketUtils::Init();
 
-	// 1) 소켓 생성 (socket)
-	SOCKET listenSocket = ::socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP); 
+	SOCKET listenSocket = ::socket(AF_INET, SOCK_STREAM, 0);
 	if (listenSocket == INVALID_SOCKET)
 		return 0;
 
-	// 2) 주소/포트 번호 설정 (bind)
-	SOCKADDR_IN serverAddr;
-	::memset(&serverAddr, 0, sizeof(serverAddr));
-	serverAddr.sin_family = AF_INET;
-	serverAddr.sin_addr.s_addr = ::htonl(INADDR_ANY);
-	serverAddr.sin_port = ::htons(7777);
-
-	// 리틀 엔디언
-	// low [0x78][0x56][0x34][0x12] high << little
-	// 빅엔디언
-	// low [0x12][0x34][0x56][0x78] high << big
-
-
-	if (::bind(listenSocket, (SOCKADDR*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR)
+	// 논블로킹 소켓화
+	u_long on = 1;
+	if (::ioctlsocket(listenSocket, FIONBIO, &on) == INVALID_SOCKET)
 		return 0;
 
+	SocketUtils::SetReuseAddress(listenSocket, true);
+
+	if (SocketUtils::BindAnyAddress(listenSocket, 7777) == false)
+		return 0;
+
+	if (SocketUtils::Listen(listenSocket) == false)
+		return 0;
 
 	while (true)
 	{
 		SOCKADDR_IN clientAddr;
-		::memset(&clientAddr, 0, sizeof(clientAddr));
 		int32 addrLen = sizeof(clientAddr);
 
-		char recvBuffer[100];
+		SOCKET clientSocket = ::accept(listenSocket, (SOCKADDR*)&clientAddr, &addrLen);
+		if (clientSocket == INVALID_SOCKET)
+		{
+			// 에러보다는 아직 소켓이 도착하지 않은 경우 뱉는 메세지
+			if (::WSAGetLastError() == WSAEWOULDBLOCK)
+				continue;
 
-		int32 recvLen = ::recvfrom(listenSocket, recvBuffer, sizeof(recvBuffer), 0, (SOCKADDR*)&clientAddr, &addrLen);
-		if (recvLen <= 0)
-			return 0;
+		}
+		
+		cout << "Client Connected!" << endl;
 
-		cout << "Recv Data :" << recvBuffer << endl;
-		cout << "Recv Data Length :" << recvLen << endl;
+		// Recv
+		while (true)
+		{
+			char recvBuffer[100];
+			int32 recvLen = ::recv(clientSocket, recvBuffer, sizeof(recvBuffer), 0);
+			if (recvLen == SOCKET_ERROR)
+			{
+				// 아직 커널리시브버퍼에 버퍼가 도착하지 않은 상태
+				if (::WSAGetLastError() == WSAEWOULDBLOCK)
+					continue;
+				// TODO
 
-		this_thread::sleep_for(1s);
+				break;
+			}
+
+			cout << "Recv Data = " << recvBuffer << endl;
+			cout << "Recv Data Len = " << recvLen << endl;
+		}
 	}
 
-	::closesocket(listenSocket);
-	::WSACleanup();
+	SocketUtils::Clear();
 }

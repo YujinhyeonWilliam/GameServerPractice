@@ -3,6 +3,7 @@
   CoreMacro.cpp
   CorePch.cpp
   CoreTLS.cpp
+  SocketUtils.cpp
   ThreadManager.cpp
   코드를 생성하고 있습니다...
   ServerCore.vcxproj -> C:\CppProjects\Server\Libraries\ServerCore\Debug\ServerCore.lib
