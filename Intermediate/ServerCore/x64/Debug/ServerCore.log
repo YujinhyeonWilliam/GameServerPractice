@@ -1,9 +1,4 @@
-﻿  pch.cpp
-  CoreGlobal.cpp
-  CoreMacro.cpp
-  CorePch.cpp
-  CoreTLS.cpp
-  SocketUtils.cpp
-  ThreadManager.cpp
-  코드를 생성하고 있습니다...
-  ServerCore.vcxproj -> C:\CppProjects\Server\Libraries\ServerCore\Debug\ServerCore.lib
+﻿  Listener.cpp
+C:\CppProjects\Server\ServerCore\Listener.cpp(1,1): error C1041: 프로그램 데이터베이스 'C:\CppProjects\Server\Libraries\ServerCore\Debug\ServerCore.pdb'을(를) 열 수 없습니다. 여러 CL.EXE에서 동일한 .PDB 파일에 쓰는 경우 /FS를 사용하십시오.
+  (소스 파일 '/Listener.cpp'을(를) 컴파일하는 중)
+  

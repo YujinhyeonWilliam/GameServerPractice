@@ -2,6 +2,11 @@ C:\CppProjects\Server\ServerCore\CoreGlobal.cpp;C:\CppProjects\Server\Intermedia
 C:\CppProjects\Server\ServerCore\CoreMacro.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\CoreMacro.obj
 C:\CppProjects\Server\ServerCore\CorePch.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\CorePch.obj
 C:\CppProjects\Server\ServerCore\CoreTLS.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\CoreTLS.obj
+C:\CppProjects\Server\ServerCore\IocpCore.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\IocpCore.obj
+C:\CppProjects\Server\ServerCore\IocpEvent.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\IocpEvent.obj
+C:\CppProjects\Server\ServerCore\Listener.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\Listener.obj
+C:\CppProjects\Server\ServerCore\NetAddress.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\NetAddress.obj
 C:\CppProjects\Server\ServerCore\pch.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\pch.obj
+C:\CppProjects\Server\ServerCore\Session.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\Session.obj
 C:\CppProjects\Server\ServerCore\SocketUtils.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\SocketUtils.obj
 C:\CppProjects\Server\ServerCore\ThreadManager.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\ThreadManager.obj
