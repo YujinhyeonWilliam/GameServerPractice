@@ -3,26 +3,95 @@
   "WorkspaceRootPath": "C:\\CppProjects\\Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\Session.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\Session.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|C:\\CppProjects\\Server\\DummyClient\\DummyClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|solutionrelative:DummyClient\\DummyClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JinhyeonYu\\Downloads\\4-11) RecvBuffer, SendBuffer\\Server\\ServerCore\\Session.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|C:\\CppProjects\\Server\\DummyClient\\ClientPacketHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|solutionrelative:DummyClient\\ClientPacketHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\MUTEX||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+      "AbsoluteMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|C:\\CppProjects\\Server\\DummyClient\\ClientPacketHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|solutionrelative:DummyClient\\ClientPacketHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CppProjects\\Server\\Server\\ServerPacketHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:Server\\ServerPacketHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CppProjects\\Server\\Server\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:Server\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CppProjects\\Server\\Server\\GameSessionManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:Server\\GameSessionManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JinhyeonYu\\Downloads\\4-12) PacketHandler\\Server\\Server\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|C:\\CppProjects\\Server\\DummyClient\\DummyClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|solutionrelative:DummyClient\\DummyClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\Session.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\Session.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CPPPROJECTS\\SERVER\\SERVERCORE\\BUFFERWRITER.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:SERVERCORE\\BUFFERWRITER.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\BufferWriter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\BufferWriter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CppProjects\\Server\\Server\\GameSessionManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:Server\\GameSessionManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\RecvBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\RecvBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\BufferReader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\BufferReader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\BufferReader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\BufferReader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CppProjects\\Server\\Server\\ServerPacketHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:Server\\ServerPacketHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\SendBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\SendBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\SERVERCORE\\SESSION.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:SERVERCORE\\SESSION.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\SERVERCORE\\SERVICE.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:SERVERCORE\\SERVICE.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CPPPROJECTS\\SERVER\\SERVERCORE\\COREPCH.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:SERVERCORE\\COREPCH.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CppProjects\\Server\\Server\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:Server\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CppProjects\\Server\\Server\\GameSession.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:Server\\GameSession.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CppProjects\\Server\\Server\\GameSession.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:Server\\GameSession.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\SendBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\SendBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CppProjects\\Server\\Server\\GameSessionManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:Server\\GameSessionManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\IocpCore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -37,52 +106,12 @@
       "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\Service.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|C:\\CPPPROJECTS\\SERVER\\SERVERCORE\\SERVICE.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|solutionrelative:SERVERCORE\\SERVICE.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|C:\\CPPPROJECTS\\SERVER\\SERVERCORE\\TYPES.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{618FBAEE-B8BE-4436-AB75-523983888040}|DummyClient\\DummyClient.vcxproj|solutionrelative:SERVERCORE\\TYPES.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CppProjects\\Server\\Server\\GameSession.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:Server\\GameSession.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CppProjects\\Server\\Server\\GameSessionManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:Server\\GameSessionManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CppProjects\\Server\\Server\\GameSession.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:Server\\GameSession.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\Session.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\Session.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CPPPROJECTS\\SERVER\\SERVERCORE\\COREPCH.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:SERVERCORE\\COREPCH.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|C:\\CppProjects\\Server\\Server\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AC6A1F5C-F512-43C0-83C0-9053935C7FC3}|Server\\Server.vcxproj|solutionrelative:Server\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\IocpEvent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\IocpEvent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\IocpEvent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\IocpEvent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\SendBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\SendBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\SendBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\SendBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\NetAddress.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -95,10 +124,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\Listener.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\Listener.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\RecvBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\RecvBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\Listener.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -155,6 +180,13 @@
     {
       "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\ServerCore\\CoreTLS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\CoreTLS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|C:\\CppProjects\\Server\\SERVERCORE\\TYPES.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1E25E4B9-AF87-4E69-B0DF-1778506BEBE4}|ServerCore\\ServerCore.vcxproj|solutionrelative:SERVERCORE\\TYPES.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\mutex||{3B902123-F8A7-4915-9F01-361F908088D0}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -163,74 +195,18 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 143,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 207,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IocpCore.h",
-              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\IocpCore.h",
-              "RelativeDocumentMoniker": "ServerCore\\IocpCore.h",
-              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\IocpCore.h",
-              "RelativeToolTip": "ServerCore\\IocpCore.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-11T00:10:45.163Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IocpEvent.h",
-              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\IocpEvent.h",
-              "RelativeDocumentMoniker": "ServerCore\\IocpEvent.h",
-              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\IocpEvent.h",
-              "RelativeToolTip": "ServerCore\\IocpEvent.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-11T00:11:03.22Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Listener.h",
-              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\Listener.h",
-              "RelativeDocumentMoniker": "ServerCore\\Listener.h",
-              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\Listener.h",
-              "RelativeToolTip": "ServerCore\\Listener.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-11T00:22:02.027Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "NetAddress.h",
-              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\NetAddress.h",
-              "RelativeDocumentMoniker": "ServerCore\\NetAddress.h",
-              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\NetAddress.h",
-              "RelativeToolTip": "ServerCore\\NetAddress.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-11T00:23:28.349Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Session.h",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\Session.h",
               "RelativeDocumentMoniker": "ServerCore\\Session.h",
               "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\Session.h",
               "RelativeToolTip": "ServerCore\\Session.h",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAFgAAAAWAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAjwHAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-11T00:37:00.568Z",
               "IsPinned": true,
@@ -238,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "Service.h",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\Service.h",
               "RelativeDocumentMoniker": "ServerCore\\Service.h",
@@ -252,21 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CoreMacro.h",
-              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\CoreMacro.h",
-              "RelativeDocumentMoniker": "ServerCore\\CoreMacro.h",
-              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\CoreMacro.h",
-              "RelativeToolTip": "ServerCore\\CoreMacro.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-08T11:01:59.316Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 10,
               "Title": "RecvBuffer.h",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\RecvBuffer.h",
               "RelativeDocumentMoniker": "ServerCore\\RecvBuffer.h",
@@ -280,13 +242,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 14,
               "Title": "SendBuffer.h",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\SendBuffer.h",
               "RelativeDocumentMoniker": "ServerCore\\SendBuffer.h",
               "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\SendBuffer.h",
               "RelativeToolTip": "ServerCore\\SendBuffer.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-12T04:46:05.094Z",
               "IsPinned": true,
@@ -294,21 +256,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "GameSession.h",
               "DocumentMoniker": "C:\\CppProjects\\Server\\Server\\GameSession.h",
               "RelativeDocumentMoniker": "Server\\GameSession.h",
               "ToolTip": "C:\\CppProjects\\Server\\Server\\GameSession.h",
               "RelativeToolTip": "Server\\GameSession.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-12T05:42:26.523Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "GameSessionManager.h",
               "DocumentMoniker": "C:\\CppProjects\\Server\\Server\\GameSessionManager.h",
               "RelativeDocumentMoniker": "Server\\GameSessionManager.h",
@@ -322,20 +283,136 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 12,
+              "Title": "BufferReader.h",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\BufferReader.h",
+              "RelativeDocumentMoniker": "ServerCore\\BufferReader.h",
+              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\BufferReader.h",
+              "RelativeToolTip": "ServerCore\\BufferReader.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-12T07:06:48.104Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BufferWriter.h",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\BufferWriter.h",
+              "RelativeDocumentMoniker": "ServerCore\\BufferWriter.h",
+              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\BufferWriter.h",
+              "RelativeToolTip": "ServerCore\\BufferWriter.h",
+              "ViewState": "AQIAABUAAAAAAAAAAAD4vzEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-12T07:07:10.783Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServerPacketHandler.h",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\Server\\ServerPacketHandler.h",
+              "RelativeDocumentMoniker": "Server\\ServerPacketHandler.h",
+              "ToolTip": "C:\\CppProjects\\Server\\Server\\ServerPacketHandler.h",
+              "RelativeToolTip": "Server\\ServerPacketHandler.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-12T07:10:09.589Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientPacketHandler.h",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\DummyClient\\ClientPacketHandler.h",
+              "RelativeDocumentMoniker": "DummyClient\\ClientPacketHandler.h",
+              "ToolTip": "C:\\CppProjects\\Server\\DummyClient\\ClientPacketHandler.h",
+              "RelativeToolTip": "DummyClient\\ClientPacketHandler.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-12T09:53:56.923Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CoreMacro.h",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\CoreMacro.h",
+              "RelativeDocumentMoniker": "ServerCore\\CoreMacro.h",
+              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\CoreMacro.h",
+              "RelativeToolTip": "ServerCore\\CoreMacro.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-08T11:01:59.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IocpEvent.h",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\IocpEvent.h",
+              "RelativeDocumentMoniker": "ServerCore\\IocpEvent.h",
+              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\IocpEvent.h",
+              "RelativeToolTip": "ServerCore\\IocpEvent.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-11T00:11:03.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IocpCore.h",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\IocpCore.h",
+              "RelativeDocumentMoniker": "ServerCore\\IocpCore.h",
+              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\IocpCore.h",
+              "RelativeToolTip": "ServerCore\\IocpCore.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-11T00:10:45.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Listener.h",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\Listener.h",
+              "RelativeDocumentMoniker": "ServerCore\\Listener.h",
+              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\Listener.h",
+              "RelativeToolTip": "ServerCore\\Listener.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-11T00:22:02.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "NetAddress.h",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\NetAddress.h",
+              "RelativeDocumentMoniker": "ServerCore\\NetAddress.h",
+              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\NetAddress.h",
+              "RelativeToolTip": "ServerCore\\NetAddress.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-11T00:23:28.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "CorePch.h",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\CorePch.h",
               "RelativeDocumentMoniker": "ServerCore\\CorePch.h",
               "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\CorePch.h",
               "RelativeToolTip": "ServerCore\\CorePch.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-08T11:01:43.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "pch.h",
               "DocumentMoniker": "C:\\CppProjects\\Server\\DummyClient\\pch.h",
               "RelativeDocumentMoniker": "DummyClient\\pch.h",
@@ -343,12 +420,11 @@
               "RelativeToolTip": "DummyClient\\pch.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-09T00:57:29.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T00:57:29.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "SocketUtils.h",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\SocketUtils.h",
               "RelativeDocumentMoniker": "ServerCore\\SocketUtils.h",
@@ -356,25 +432,24 @@
               "RelativeToolTip": "ServerCore\\SocketUtils.h",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAACMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-09T04:12:03.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T04:12:03.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "pch.h",
               "DocumentMoniker": "C:\\CppProjects\\Server\\Server\\pch.h",
               "RelativeDocumentMoniker": "Server\\pch.h",
               "ToolTip": "C:\\CppProjects\\Server\\Server\\pch.h",
               "RelativeToolTip": "Server\\pch.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-08T10:57:20.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "pch.h",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\pch.h",
               "RelativeDocumentMoniker": "ServerCore\\pch.h",
@@ -382,25 +457,23 @@
               "RelativeToolTip": "ServerCore\\pch.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-08T10:56:10.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T10:56:10.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 45,
               "Title": "Types.h",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\Types.h",
               "RelativeDocumentMoniker": "ServerCore\\Types.h",
               "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\Types.h",
               "RelativeToolTip": "ServerCore\\Types.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAjwBwAAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAjwBkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-08T11:01:19.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T11:01:19.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "CoreGlobal.h",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\CoreGlobal.h",
               "RelativeDocumentMoniker": "ServerCore\\CoreGlobal.h",
@@ -412,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 43,
               "Title": "ThreadManager.h",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\ThreadManager.h",
               "RelativeDocumentMoniker": "ServerCore\\ThreadManager.h",
@@ -424,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 42,
               "Title": "CoreTLS.h",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\CoreTLS.h",
               "RelativeDocumentMoniker": "ServerCore\\CoreTLS.h",
@@ -437,18 +510,18 @@
           ]
         },
         {
-          "DockedWidth": 267,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 203,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Server.cpp",
               "DocumentMoniker": "C:\\CppProjects\\Server\\Server\\Server.cpp",
               "RelativeDocumentMoniker": "Server\\Server.cpp",
               "ToolTip": "C:\\CppProjects\\Server\\Server\\Server.cpp",
               "RelativeToolTip": "Server\\Server.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAeAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-09T10:47:36.988Z",
               "IsPinned": true,
@@ -457,68 +530,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IocpCore.cpp",
-              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\IocpCore.cpp",
-              "RelativeDocumentMoniker": "ServerCore\\IocpCore.cpp",
-              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\IocpCore.cpp",
-              "RelativeToolTip": "ServerCore\\IocpCore.cpp",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAkwCIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-11T00:10:50.725Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IocpEvent.cpp",
-              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\IocpEvent.cpp",
-              "RelativeDocumentMoniker": "ServerCore\\IocpEvent.cpp",
-              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\IocpEvent.cpp",
-              "RelativeToolTip": "ServerCore\\IocpEvent.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-11T00:11:08.756Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Listener.cpp",
-              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\Listener.cpp",
-              "RelativeDocumentMoniker": "ServerCore\\Listener.cpp",
-              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\Listener.cpp",
-              "RelativeToolTip": "ServerCore\\Listener.cpp",
-              "ViewState": "AQIAADYAAAAAAAAAAADwv1IAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-11T00:22:06.681Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "NetAddress.cpp",
-              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\NetAddress.cpp",
-              "RelativeDocumentMoniker": "ServerCore\\NetAddress.cpp",
-              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\NetAddress.cpp",
-              "RelativeToolTip": "ServerCore\\NetAddress.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-11T00:23:36.261Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Session.cpp",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\Session.cpp",
               "RelativeDocumentMoniker": "ServerCore\\Session.cpp",
               "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\Session.cpp",
               "RelativeToolTip": "ServerCore\\Session.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvx4AAAATAAAA",
+              "ViewState": "AQIAABwBAAAAAAAAAAAjwEcBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-11T00:37:04.092Z",
               "IsPinned": true,
@@ -526,35 +543,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Service.cpp",
-              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\Service.cpp",
-              "RelativeDocumentMoniker": "ServerCore\\Service.cpp",
-              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\Service.cpp",
-              "RelativeToolTip": "ServerCore\\Service.cpp",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAjwEQAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-12T01:29:19.741Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "SendBuffer.cpp",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\SendBuffer.cpp",
               "RelativeDocumentMoniker": "ServerCore\\SendBuffer.cpp",
               "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\SendBuffer.cpp",
               "RelativeToolTip": "ServerCore\\SendBuffer.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-12T04:46:10.492Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "RecvBuffer.cpp",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\RecvBuffer.cpp",
               "RelativeDocumentMoniker": "ServerCore\\RecvBuffer.cpp",
@@ -563,12 +565,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-12T04:46:24.95Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 22,
               "Title": "GameSessionManager.cpp",
               "DocumentMoniker": "C:\\CppProjects\\Server\\Server\\GameSessionManager.cpp",
               "RelativeDocumentMoniker": "Server\\GameSessionManager.cpp",
@@ -577,39 +578,153 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-12T05:42:56.71Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "GameSession.cpp",
               "DocumentMoniker": "C:\\CppProjects\\Server\\Server\\GameSession.cpp",
               "RelativeDocumentMoniker": "Server\\GameSession.cpp",
               "ToolTip": "C:\\CppProjects\\Server\\Server\\GameSession.cpp",
               "RelativeToolTip": "Server\\GameSession.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-12T05:42:57.52Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BufferReader.cpp",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\BufferReader.cpp",
+              "RelativeDocumentMoniker": "ServerCore\\BufferReader.cpp",
+              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\BufferReader.cpp",
+              "RelativeToolTip": "ServerCore\\BufferReader.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-12T07:07:16.317Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Session.cpp",
-              "DocumentMoniker": "C:\\Users\\JinhyeonYu\\Downloads\\4-11) RecvBuffer, SendBuffer\\Server\\ServerCore\\Session.cpp",
-              "RelativeDocumentMoniker": "..\\..\\Users\\JinhyeonYu\\Downloads\\4-11) RecvBuffer, SendBuffer\\Server\\ServerCore\\Session.cpp",
-              "ToolTip": "C:\\Users\\JinhyeonYu\\Downloads\\4-11) RecvBuffer, SendBuffer\\Server\\ServerCore\\Session.cpp",
-              "RelativeToolTip": "..\\..\\Users\\JinhyeonYu\\Downloads\\4-11) RecvBuffer, SendBuffer\\Server\\ServerCore\\Session.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEBAAAxAAAA",
+              "DocumentIndex": 8,
+              "Title": "BufferWriter.cpp",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\BufferWriter.cpp",
+              "RelativeDocumentMoniker": "ServerCore\\BufferWriter.cpp",
+              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\BufferWriter.cpp",
+              "RelativeToolTip": "ServerCore\\BufferWriter.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwBgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-12T05:58:09.54Z",
+              "WhenOpened": "2024-04-12T07:07:17.263Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServerPacketHandler.cpp",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\Server\\ServerPacketHandler.cpp",
+              "RelativeDocumentMoniker": "Server\\ServerPacketHandler.cpp",
+              "ToolTip": "C:\\CppProjects\\Server\\Server\\ServerPacketHandler.cpp",
+              "RelativeToolTip": "Server\\ServerPacketHandler.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-12T07:10:17.812Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ClientPacketHandler.cpp",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\DummyClient\\ClientPacketHandler.cpp",
+              "RelativeDocumentMoniker": "DummyClient\\ClientPacketHandler.cpp",
+              "ToolTip": "C:\\CppProjects\\Server\\DummyClient\\ClientPacketHandler.cpp",
+              "RelativeToolTip": "DummyClient\\ClientPacketHandler.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAB0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-12T09:54:00.917Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Server.cpp",
+              "DocumentMoniker": "C:\\Users\\JinhyeonYu\\Downloads\\4-12) PacketHandler\\Server\\Server\\Server.cpp",
+              "RelativeDocumentMoniker": "..\\..\\Users\\JinhyeonYu\\Downloads\\4-12) PacketHandler\\Server\\Server\\Server.cpp",
+              "ToolTip": "C:\\Users\\JinhyeonYu\\Downloads\\4-12) PacketHandler\\Server\\Server\\Server.cpp",
+              "RelativeToolTip": "..\\..\\Users\\JinhyeonYu\\Downloads\\4-12) PacketHandler\\Server\\Server\\Server.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-12T09:52:31.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NetAddress.cpp",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\NetAddress.cpp",
+              "RelativeDocumentMoniker": "ServerCore\\NetAddress.cpp",
+              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\NetAddress.cpp",
+              "RelativeToolTip": "ServerCore\\NetAddress.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-11T00:23:36.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Service.cpp",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\Service.cpp",
+              "RelativeDocumentMoniker": "ServerCore\\Service.cpp",
+              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\Service.cpp",
+              "RelativeToolTip": "ServerCore\\Service.cpp",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAjwEQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-12T01:29:19.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Listener.cpp",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\Listener.cpp",
+              "RelativeDocumentMoniker": "ServerCore\\Listener.cpp",
+              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\Listener.cpp",
+              "RelativeToolTip": "ServerCore\\Listener.cpp",
+              "ViewState": "AQIAADYAAAAAAAAAAADwv1IAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-11T00:22:06.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IocpEvent.cpp",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\IocpEvent.cpp",
+              "RelativeDocumentMoniker": "ServerCore\\IocpEvent.cpp",
+              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\IocpEvent.cpp",
+              "RelativeToolTip": "ServerCore\\IocpEvent.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-11T00:11:08.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IocpCore.cpp",
+              "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\IocpCore.cpp",
+              "RelativeDocumentMoniker": "ServerCore\\IocpCore.cpp",
+              "ToolTip": "C:\\CppProjects\\Server\\ServerCore\\IocpCore.cpp",
+              "RelativeToolTip": "ServerCore\\IocpCore.cpp",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAkwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-11T00:10:50.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "mutex",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\mutex",
               "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\mutex",
@@ -617,25 +732,24 @@
               "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\mutex",
               "ViewState": "AQIAALIBAAAAAAAAAAAkwM4BAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-12T05:56:38.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T05:56:38.238Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "DummyClient.cpp",
               "DocumentMoniker": "C:\\CppProjects\\Server\\DummyClient\\DummyClient.cpp",
               "RelativeDocumentMoniker": "DummyClient\\DummyClient.cpp",
               "ToolTip": "C:\\CppProjects\\Server\\DummyClient\\DummyClient.cpp",
               "RelativeToolTip": "DummyClient\\DummyClient.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAoAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-08T11:52:10.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "SocketUtils.cpp",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\SocketUtils.cpp",
               "RelativeDocumentMoniker": "ServerCore\\SocketUtils.cpp",
@@ -643,12 +757,11 @@
               "RelativeToolTip": "ServerCore\\SocketUtils.cpp",
               "ViewState": "AQIAACoAAAAAAAAAAAAkwEgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-09T04:12:07.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T04:12:07.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "CoreGlobal.cpp",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\CoreGlobal.cpp",
               "RelativeDocumentMoniker": "ServerCore\\CoreGlobal.cpp",
@@ -660,7 +773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 44,
               "Title": "CoreTLS.cpp",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\CoreTLS.cpp",
               "RelativeDocumentMoniker": "ServerCore\\CoreTLS.cpp",
@@ -672,7 +785,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 24,
               "Title": "ThreadManager.cpp",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\ThreadManager.cpp",
               "RelativeDocumentMoniker": "ServerCore\\ThreadManager.cpp",
@@ -680,12 +793,11 @@
               "RelativeToolTip": "ServerCore\\ThreadManager.cpp",
               "ViewState": "AQIAABQAAAAAAAAAAAAkwBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-08T11:22:02.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T11:22:02.791Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "pch.cpp",
               "DocumentMoniker": "C:\\CppProjects\\Server\\ServerCore\\pch.cpp",
               "RelativeDocumentMoniker": "ServerCore\\pch.cpp",

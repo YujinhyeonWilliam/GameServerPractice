@@ -2,3 +2,4 @@ C:\CppProjects\Server\Server\GameSession.cpp;C:\CppProjects\Server\Intermediate\
 C:\CppProjects\Server\Server\GameSessionManager.cpp;C:\CppProjects\Server\Intermediate\Server\x64\Debug\GameSessionManager.obj
 C:\CppProjects\Server\Server\pch.cpp;C:\CppProjects\Server\Intermediate\Server\x64\Debug\pch.obj
 C:\CppProjects\Server\Server\Server.cpp;C:\CppProjects\Server\Intermediate\Server\x64\Debug\Server.obj
+C:\CppProjects\Server\Server\ServerPacketHandler.cpp;C:\CppProjects\Server\Intermediate\Server\x64\Debug\ServerPacketHandler.obj

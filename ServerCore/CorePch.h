@@ -26,6 +26,7 @@ using namespace std;
 
 #include "SocketUtils.h"
 #include "SendBuffer.h"
+#include "Session.h"
 
 #pragma comment(lib, "ws2_32.lib")
 
