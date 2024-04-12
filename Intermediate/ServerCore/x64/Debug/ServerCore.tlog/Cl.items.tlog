@@ -7,6 +7,8 @@ C:\CppProjects\Server\ServerCore\IocpEvent.cpp;C:\CppProjects\Server\Intermediat
 C:\CppProjects\Server\ServerCore\Listener.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\Listener.obj
 C:\CppProjects\Server\ServerCore\NetAddress.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\NetAddress.obj
 C:\CppProjects\Server\ServerCore\pch.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\pch.obj
+C:\CppProjects\Server\ServerCore\RecvBuffer.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\RecvBuffer.obj
+C:\CppProjects\Server\ServerCore\SendBuffer.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\SendBuffer.obj
 C:\CppProjects\Server\ServerCore\Service.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\Service.obj
 C:\CppProjects\Server\ServerCore\Session.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\Session.obj
 C:\CppProjects\Server\ServerCore\SocketUtils.cpp;C:\CppProjects\Server\Intermediate\ServerCore\x64\Debug\SocketUtils.obj

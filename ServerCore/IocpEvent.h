@@ -27,4 +27,5 @@ struct IocpEvent : public OVERLAPPED
 
 	//TEMP
 	vector<BYTE> buffer;
+	vector<SendBufferRef> sendBuffers;
 };
