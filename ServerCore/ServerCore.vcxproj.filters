@@ -58,6 +58,9 @@
     <ClInclude Include="Session.h">
       <Filter>소스 파일\Network</Filter>
     </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>소스 파일\Network</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -94,6 +97,9 @@
       <Filter>소스 파일\Network</Filter>
     </ClCompile>
     <ClCompile Include="Session.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
       <Filter>소스 파일\Network</Filter>
     </ClCompile>
   </ItemGroup>

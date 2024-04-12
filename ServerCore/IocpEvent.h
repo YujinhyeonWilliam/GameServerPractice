@@ -22,5 +22,9 @@ struct IocpEvent : public OVERLAPPED
 	void		Init();
 
 	EventType	type;
-	Session* session = nullptr; // Accept Only
+	IocpObjectRef owner = nullptr;
+	SessionRef session = nullptr; // Accept Only
+
+	//TEMP
+	vector<BYTE> buffer;
 };
